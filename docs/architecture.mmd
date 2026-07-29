@@ -1,0 +1,12 @@
+flowchart LR
+    UI[Streamlit Teacher UI] --> O[Orchestrator]
+    O --> R[Router Agent\nGroq Llama 3.1 8B]
+    O --> C[Curriculum Agent]
+    C --> T[RAG Tool]
+    T --> E[MiniLM Embeddings]
+    E --> V[(FAISS Vector Store)]
+    V --> C
+    C --> P[Lesson Planning Agent\nGroq GPT-OSS 120B]
+    P --> Q[Review Agent\nGroq Llama 3.1 8B]
+    Q -->|approved| UI
+    Q -->|revision required| P

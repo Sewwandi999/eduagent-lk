@@ -1,0 +1,27 @@
+sequenceDiagram
+    actor Teacher
+    participant UI as Streamlit UI
+    participant O as Orchestrator
+    participant R as Router Agent
+    participant C as Curriculum Agent
+    participant KB as FAISS RAG Tool
+    participant P as Lesson Planning Agent
+    participant V as Review Agent
+
+    Teacher->>UI: grade, topic, duration, level, output
+    UI->>O: TeacherRequest JSON
+    O->>R: route(request)
+    R-->>O: RouteDecision JSON
+    O->>C: retrieve(request)
+    C->>KB: semantic_search(query, grade)
+    KB-->>C: RetrievedChunk[]
+    C-->>P: CurriculumContext JSON
+    P-->>V: LessonDraft JSON
+    V-->>O: ReviewReport JSON
+    alt revision_required = true
+        O->>P: revision instructions
+        P-->>V: revised LessonDraft
+        V-->>O: final ReviewReport
+    end
+    O-->>UI: WorkflowResult JSON
+    UI-->>Teacher: material + sources + review + trace
