@@ -1,0 +1,27 @@
+[
+  {
+    "query": "Grade 9 reported speech lesson with sentence transformation",
+    "grade": 9,
+    "expected_terms": ["reported", "speech", "transformation"]
+  },
+  {
+    "query": "Grade 9 WH questions classroom activity",
+    "grade": 9,
+    "expected_terms": ["question", "wh", "activity"]
+  },
+  {
+    "query": "Grade 10 passive voice exercises and assessment",
+    "grade": 10,
+    "expected_terms": ["passive", "voice", "assessment"]
+  },
+  {
+    "query": "Grade 10 formal letter writing lesson",
+    "grade": 10,
+    "expected_terms": ["formal", "letter", "writing"]
+  },
+  {
+    "query": "Grade 10 mixed ability English grammar differentiation support and advanced learners",
+    "grade": 10,
+    "expected_terms": ["differentiation", "support", "advanced"]
+  }
+]

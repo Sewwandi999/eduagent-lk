@@ -1,0 +1,96 @@
+[
+  {
+    "query": "Grade 9 reported speech lesson with sentence transformation",
+    "grade": 9,
+    "top_sources": [
+      "grade9/reported_speech_basics.md",
+      "grade9/passive_voice_intro.md",
+      "grade9/simple_tenses.md",
+      "grade9/parts_of_speech.md",
+      "grade9/paragraph_writing.md"
+    ],
+    "mean_score": 0.213,
+    "matched_terms": [
+      "reported",
+      "speech",
+      "transformation"
+    ],
+    "relevant": true,
+    "comment": "Relevant: the retrieved text contains most expected concepts."
+  },
+  {
+    "query": "Grade 9 WH questions classroom activity",
+    "grade": 9,
+    "top_sources": [
+      "grade9/yes_no_questions.md",
+      "grade9/wh_questions.md",
+      "grade9/reading_comprehension.md",
+      "grade9/prepositions.md",
+      "grade9/conjunctions.md"
+    ],
+    "mean_score": 0.2101,
+    "matched_terms": [
+      "question",
+      "wh"
+    ],
+    "relevant": true,
+    "comment": "Relevant: the retrieved text contains most expected concepts."
+  },
+  {
+    "query": "Grade 10 passive voice exercises and assessment",
+    "grade": 10,
+    "top_sources": [
+      "grade10/passive_voice.md",
+      "grade10/conditionals.md",
+      "grade10/assessment_differentiation.md",
+      "grade10/debate_speaking.md",
+      "grade10/relative_clauses.md"
+    ],
+    "mean_score": 0.327,
+    "matched_terms": [
+      "passive",
+      "voice",
+      "assessment"
+    ],
+    "relevant": true,
+    "comment": "Relevant: the retrieved text contains most expected concepts."
+  },
+  {
+    "query": "Grade 10 formal letter writing lesson",
+    "grade": 10,
+    "top_sources": [
+      "grade10/formal_letter_writing.md",
+      "grade10/revision_paper_design.md",
+      "grade10/essay_writing.md",
+      "grade10/assessment_differentiation.md",
+      "grade10/modal_verbs.md"
+    ],
+    "mean_score": 0.1593,
+    "matched_terms": [
+      "formal",
+      "letter",
+      "writing"
+    ],
+    "relevant": true,
+    "comment": "Relevant: the retrieved text contains most expected concepts."
+  },
+  {
+    "query": "Grade 10 mixed ability English grammar differentiation support and advanced learners",
+    "grade": 10,
+    "top_sources": [
+      "grade10/assessment_differentiation.md",
+      "grade10/debate_speaking.md",
+      "grade10/reported_speech_advanced.md",
+      "grade10/relative_clauses.md",
+      "grade10/revision_paper_design.md"
+    ],
+    "mean_score": 0.3152,
+    "matched_terms": [
+      "differentiation",
+      "support",
+      "advanced"
+    ],
+    "relevant": true,
+    "comment": "Relevant: the retrieved text contains most expected concepts."
+  }
+]

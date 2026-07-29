@@ -1,0 +1,7 @@
+source_name,grade,type,official_url,usage
+NIE Grade 9 English Teachers Guide,9,PDF,https://www.nie.lk/pdffiles/tg/eGr09TG%20English.pdf,Download with scripts/download_official_sources.py and split into page-range documents
+NIE Grade 10 English Teachers Guide,10,PDF,https://www.nie.lk/pdffiles/tg/e10tim107.pdf,Download with scripts/download_official_sources.py and split into page-range documents
+e-Thaksalawa Grade 9 English Course,9,Course page,https://e-thaksalawa.moe.gov.lk/lcms/course/view.php?id=823,Use approved textbook workbook and lesson resources
+e-Thaksalawa Grade 10 English Category,10,Course category,https://e-thaksalawa.moe.gov.lk/lcms/course/index.php?categoryid=47,Locate English textbook workbook papers and marking schemes
+e-Thaksalawa Grade 9 Past Papers,9,Past papers,https://e-thaksalawa.moe.gov.lk/lcms/course/section.php?id=6079,Add selected papers and answer schemes as retrieval documents
+e-Thaksalawa Grade 10 Papers,10,Past papers,https://e-thaksalawa.moe.gov.lk/lcms/course/section.php?id=12720,Add selected papers and answer schemes as retrieval documents
