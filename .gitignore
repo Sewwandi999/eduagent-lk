@@ -1,0 +1,26 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated vector files and downloaded source PDFs
+data/vector_store/*
+!data/vector_store/.gitkeep
+data/official_sources/*
+!data/official_sources/.gitkeep
+
+# Local exports
+outputs/
+*.log
